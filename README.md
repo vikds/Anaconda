@@ -35,11 +35,11 @@ Remove image
 
 Let's assume container name as
 
-    anaconda3
+    vikds_anaconda3
 
 Run container
 
-    $ docker run —name anaconda3 -p 8888:8888 -v $PWD/notebooks:/opt/notebooks -d vikds/anaconda3
+    $ docker run —name vikds_anaconda3 -p 8888:8888 -v $PWD/notebooks:/opt/notebooks -d vikds/anaconda3
 
 And open [http://localhost:8888](http://localhost:8888/) with password **root**.
 
@@ -50,9 +50,9 @@ List of running containers
 Stop container
 
     $ docker stop <name-or-container-id>
-    $ docker stop anaconda3
+    $ docker stop vikds_anaconda3
 
 Stop and remove container
 
     $ docker rm -f <name-or-container-id>
-    $ docker rm -f anaconda3
+    $ docker rm -f vikds_anaconda3
