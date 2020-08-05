@@ -78,7 +78,8 @@ Print app output
     $ docker logs <name-or-container-id>
     $ docker logs vikds_anaconda3
 
-Run bash inside it
+
+Get a bash shell in the container
 
     $ docker exec -it <name-or-container-id> /bin/bash
     $ docker exec -it vikds_anaconda3 /bin/bash
