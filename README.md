@@ -2,7 +2,7 @@
 
 ## How to install
 
-1. Install [docker](https://docs.docker.com/engine/install/)
+1. Install [Docker](https://docs.docker.com/engine/install/)
 
 2. Let's assume local working directory as
 
@@ -12,13 +12,13 @@
 
 3. Clone repository source code or get the latest built image:
 
-  * Clone repository source code from [**GitHub**](https://github.com/vikds/anaconda3)
+  * Clone repository source code from [GitHub](https://github.com/vikds/anaconda3)
 
     ```bash
     $ git clone https://github.com/vikds/anaconda3.git
     ```
 
-  * Get the latest built image from [**Docker Hub**](https://hub.docker.com/repository/docker/vikds/anaconda3)
+  * Get the latest built image from [Docker Hub](https://hub.docker.com/repository/docker/vikds/anaconda3)
 
     ```bash
     $ docker pull vikds/anaconda3
@@ -71,16 +71,6 @@ List of running containers
 
     $ docker ps -a
 
-Stop container
-
-    $ docker stop <name-or-container-id>
-    $ docker stop vikds_anaconda3
-
-Stop and remove container
-
-    $ docker rm -f <name-or-container-id>
-    $ docker rm -f vikds_anaconda3
-
 ### Work with container
 
 Print container output
@@ -92,3 +82,15 @@ Get a bash shell in the container
 
     $ docker exec -it <name-or-container-id> /bin/bash
     $ docker exec -it vikds_anaconda3 /bin/bash
+
+### Stop and remove container
+
+Stop container
+
+    $ docker stop <name-or-container-id>
+    $ docker stop vikds_anaconda3
+
+Stop and remove container
+
+    $ docker rm -f <name-or-container-id>
+    $ docker rm -f vikds_anaconda3
