@@ -59,11 +59,11 @@ Let's assume container name as
 
 Run container
 
-    $ docker run vikds/anaconda3 \
-                 --name vikds_anaconda3 \
+    $ docker run --name vikds_anaconda3 \
                  --publish 8888:8888 \
                  --volume $(pwd)/notebooks:/opt/notebooks \
-                 --detach
+                 --detach \
+                 vikds/anaconda3
 
 And open [localhost:8888](http://localhost:8888/) with password: **root**.
 
