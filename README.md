@@ -2,7 +2,7 @@
 
 ## Image repository
 
-Docker Hub: [https://hub.docker.com/repository/docker/vikds/anaconda3](https://hub.docker.com/repository/docker/vikds/anaconda3) 
+Docker Hub: [vikds/anaconda3](https://hub.docker.com/repository/docker/vikds/anaconda3)
 
 ## How to install
 
@@ -49,7 +49,7 @@ Run container
                  --volume $(pwd)/notebooks:/opt/notebooks \
                  --detach
 
-And open [http://localhost:8888](http://localhost:8888/) with password **root**.
+And open [localhost:8888](http://localhost:8888/) with password: **root**.
 
 List of running containers
 
