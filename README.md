@@ -16,21 +16,29 @@ GitHub: [vikds/anaconda3](https://github.com/vikds/anaconda3)
 
 2. Let's assume local working directory as
 
+    ```bash
     $ .../src/github/vikds
+    ```
 
 3. Clone repository source code or get the latest built image:
 
   * Clone repository source code from **GitHub**
 
+    ```bash
     $ git clone https://github.com/vikds/anaconda3.git
+    ```
 
   * Get the latest built image from **Docker Hub**
 
+    ```bash
     $ docker pull vikds/anaconda3
+    ```
 
 4. Open working directory
 
+    ```bash
     $ cd anaconda3
+    ```
 
 ## How to use
 
