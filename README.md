@@ -12,17 +12,29 @@ GitHub: [vikds/anaconda3](https://github.com/vikds/anaconda3)
 
 ## How to install
 
-* Install [docker](https://docs.docker.com/engine/install/)
-* Clone repository:
+1. Install [docker](https://docs.docker.com/engine/install/)
 
-```bash
-$ git clone https://github.com/vikds/anaconda3.git
-$ cd anaconda3
-```
+2. Let's assume local working directory as
+
+    $ .../src/github/vikds
+
+3. Clone repository source code or get the latest built image:
+
+  * Clone repository source code from **GitHub**
+
+    $ git clone https://github.com/vikds/anaconda3.git
+
+  * Get the latest built image from **Docker Hub**
+
+    $ docker pull vikds/anaconda3
+
+4. Open working directory
+
+    $ cd anaconda3
 
 ## How to use
 
-### Build
+### Build image from source code
 
 Let's assume image name as
 
@@ -41,7 +53,7 @@ Remove image
     $ docker rmi -f <name-or-image-id>
     $ docker rmi -f vikds/anaconda3
 
-### Run
+### Run image container
 
 Let's assume container name as
 
@@ -71,13 +83,12 @@ Stop and remove container
     $ docker rm -f <name-or-container-id>
     $ docker rm -f vikds_anaconda3
 
-### Work with it
+### Work with container
 
-Print app output
+Print container output
 
     $ docker logs <name-or-container-id>
     $ docker logs vikds_anaconda3
-
 
 Get a bash shell in the container
 
