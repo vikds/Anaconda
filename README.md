@@ -1,15 +1,5 @@
 # Python 3 anaconda with running jupyter notebook
 
-## Repositories
-
-### Image repository
-
-Docker Hub: [vikds/anaconda3](https://hub.docker.com/repository/docker/vikds/anaconda3)
-
-### Code repository
-
-GitHub: [vikds/anaconda3](https://github.com/vikds/anaconda3)
-
 ## How to install
 
 1. Install [docker](https://docs.docker.com/engine/install/)
@@ -22,13 +12,13 @@ GitHub: [vikds/anaconda3](https://github.com/vikds/anaconda3)
 
 3. Clone repository source code or get the latest built image:
 
-  * Clone repository source code from **GitHub**
+  * Clone repository source code from [**GitHub**](https://github.com/vikds/anaconda3)
 
     ```bash
     $ git clone https://github.com/vikds/anaconda3.git
     ```
 
-  * Get the latest built image from **Docker Hub**
+  * Get the latest built image from [**Docker Hub**](https://hub.docker.com/repository/docker/vikds/anaconda3)
 
     ```bash
     $ docker pull vikds/anaconda3
