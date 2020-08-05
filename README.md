@@ -1,8 +1,14 @@
 # Python 3 anaconda with running jupyter notebook
 
-## Image repository
+## Repositories
+
+### Image repository
 
 Docker Hub: [vikds/anaconda3](https://hub.docker.com/repository/docker/vikds/anaconda3)
+
+### Code repository
+
+GitHub: [vikds/anaconda3](https://github.com/vikds/anaconda3)
 
 ## How to install
 
@@ -65,14 +71,14 @@ Stop and remove container
     $ docker rm -f <name-or-container-id>
     $ docker rm -f vikds_anaconda3
 
-### Work with
+### Work with it
 
 Print app output
 
     $ docker logs <name-or-container-id>
     $ docker logs vikds_anaconda3
 
-Run inside it
+Run bash inside it
 
     $ docker exec -it <name-or-container-id> /bin/bash
     $ docker exec -it vikds_anaconda3 /bin/bash
