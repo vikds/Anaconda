@@ -1,5 +1,15 @@
 # Python 3 anaconda with running jupyter notebook
 
+## Extensions
+
+1. [Tensorflow](https://www.tensorflow.org/install)
+
+    ```bash
+    $ docker exec -it vikds_anaconda3 /bin/bash
+    $ python -c "import tensorflow as tf; print(tf.__version__)"
+    2.3.0
+    ```
+
 ## How to install
 
 1. Install [Docker](https://docs.docker.com/engine/install/)
