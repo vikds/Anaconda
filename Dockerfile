@@ -8,6 +8,9 @@ RUN conda update --all
 # Install tensorflow
 RUN pip install --upgrade tensorflow
 
+# Build essentials and cmake for fasttext
+RUN apt-get install -y build-essential unzip cmake
+
 # Install fastText
 # Install cython & cysignals before pyfasttext
 RUN pip install --upgrade cython && \
