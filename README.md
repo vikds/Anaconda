@@ -13,9 +13,9 @@
 2. [fastText](https://www.tensorflow.org/install)
 
     ```bash
-    $ python
-    >>> import fasttext
-    >>>
+    $ docker exec -it vikds_anaconda3 /bin/bash
+    $ python -c "import fasttext as ft; print(ft.__file__)"
+    /opt/conda/lib/python3.7/site-packages/fasttext/__init__.py
     ```
 
 ## How to install
