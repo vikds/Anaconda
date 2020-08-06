@@ -15,8 +15,8 @@ RUN apt-get install -y build-essential unzip cmake
 # Install cython & cysignals before pyfasttext
 RUN pip install --upgrade cython && \
     pip install --upgrade cysignals && \
-    pip install --upgrade pyfasttext && \
-    pip install --upgrade fasttext
+    pip install pyfasttext && \
+    pip install fasttext
 
 # Start Jupyter notebook web application
 RUN mkdir /opt/notebooks

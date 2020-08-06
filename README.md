@@ -10,7 +10,7 @@
     2.3.0
     ```
 
-2. [fastText](https://www.tensorflow.org/install)
+2. [fastText](https://fasttext.cc/) from [PyPI](https://pypi.org/project/fasttext/)
 
     ```bash
     $ docker exec -it vikds_anaconda3 /bin/bash
