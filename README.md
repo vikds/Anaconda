@@ -10,6 +10,14 @@
     2.3.0
     ```
 
+2. [fastText](https://www.tensorflow.org/install)
+
+    ```bash
+    $ python
+    >>> import fasttext
+    >>>
+    ```
+
 ## How to install
 
 1. Install [Docker](https://docs.docker.com/engine/install/)
