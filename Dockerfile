@@ -12,8 +12,8 @@ RUN pip install --upgrade tensorflow
 # Install cython & cysignals before pyfasttext
 RUN pip install --upgrade cython && \
     pip install --upgrade cysignals && \
-    pip install pyfasttext && \
-    pip install fasttext
+    pip install --upgrade pyfasttext && \
+    pip install --upgrade fasttext
 
 # Start Jupyter notebook web application
 RUN mkdir /opt/notebooks
