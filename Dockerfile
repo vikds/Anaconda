@@ -8,6 +8,13 @@ RUN conda update --all
 # Install tensorflow
 RUN pip install --upgrade tensorflow
 
+# Install fastText
+# Install cython & cysignals before pyfasttext
+RUN pip install --upgrade cython && \
+    pip install --upgrade cysignals && \
+    pip install pyfasttext && \
+    pip install fasttext
+
 # Start Jupyter notebook web application
 RUN mkdir /opt/notebooks
 RUN jupyter notebook --generate-config --allow-root
