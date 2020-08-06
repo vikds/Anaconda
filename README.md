@@ -36,7 +36,7 @@
     $ git clone https://github.com/vikds/anaconda3.git
     ```
 
-  * Get the latest built image from [Docker Hub](https://hub.docker.com/repository/docker/vikds/anaconda3)
+  * Get the latest built image from [Docker Hub](https://hub.docker.com/r/vikds/anaconda3)
 
     ```bash
     $ docker pull vikds/anaconda3
