@@ -10,7 +10,7 @@
     2.3.0
     ```
 
-2. [fastText](https://fasttext.cc/) from [PyPI](https://pypi.org/project/fasttext/)
+2. [fastText](https://fasttext.cc/) from [facebook](https://github.com/facebookresearch/fastText/) ([PyPI](https://pypi.org/project/fasttext/))
 
     ```bash
     $ docker exec -it vikds_anaconda3 /bin/bash
