@@ -112,3 +112,14 @@ Stop and remove container
 
     $ docker rm -f <name-or-container-id>
     $ docker rm -f vikds_anaconda3
+
+## Or just use a [Kaggle](https://github.com/Kaggle/docker-python) image
+
+    $ docker run --name kaggle_python \
+                 --volume $(pwd):/tmp/working \
+                 --workdir=/tmp/working \
+                 --publish 8888:8888 --publish 6006:6006 \
+                 --detach \
+                 gcr.io/kaggle-images/python \
+                 jupyter notebook --no-browser --ip='*' \
+                 --port=8888 --allow-root --notebook-dir=/tmp/working
